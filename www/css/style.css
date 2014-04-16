@@ -1,1 +1,24 @@
 /* Empty. Add your own CSS if you like */
+select {
+  display: block;
+  width: 75%;
+}
+.slider{
+  position: absolute !important;
+  top: 0 ;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+.slider-pager {
+	top: initial;
+	bottom: 60px !important;
+}
+p {
+	padding: 0.2em;
+}
+.predict {
+	font-size: 3em;
+	padding: 0.4em 0.2em 0.4em 0.2em;
+}

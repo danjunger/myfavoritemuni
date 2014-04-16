@@ -10,4 +10,10 @@ angular.module('mfm.controllers.edit', [])
 		$scope.favorites = _.without($scope.favorites, favorite);
 		WebCache.setData('favorites', $scope.favorites);
 	};
+
+	$scope.moveItem = function(item, fromIndex, toIndex) {
+      $scope.favorites.splice(fromIndex, 1);
+      $scope.favorites.splice(toIndex, 0, item);
+      console.log('hi');
+    };
   }]);

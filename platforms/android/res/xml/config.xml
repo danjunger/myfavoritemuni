@@ -4,10 +4,7 @@
     <feature name="App">
         <param name="android-package" value="org.apache.cordova.App" />
     </feature>
-    <feature name="Device">
-        <param name="android-package" value="org.apache.cordova.device.Device" />
-    </feature>
-    <name>HelloCordova</name>
+    <name>MyFavoriteMuni</name>
     <description>
         An Ionic Framework and Cordova project.
     </description>

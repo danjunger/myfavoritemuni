@@ -1,12 +1,15 @@
 <ion-view title="My Favorite Muni">
-  <ion-content class="has-header padding">
-  	<ion-slide-box on-slide-changed="slideChanged(index)">
+  <ion-slide-box on-slide-changed="slideChanged(index)">
 	  <!-- list of favorites -->
 	  <ion-slide ng-repeat="favorite in favorites track by $index">
 	    <!-- list of predictions for each favorite -->
-	    <h2>{{favorite.agency.display_name}} - {{favorite.route.display_name}} @ {{favorite.stop.display_name}} ({{favorite.direction.display_name}})</h1>
-		<p ng-repeat="prediction in favorite.predictions">{{prediction.minutes}} minutes</p>
+	    <ion-content>
+	      <h3>{{favorite.agency.display_name}}<br/>{{favorite.route.display_name}} @<br/>{{favorite.stop.display_name}}<br/>({{favorite.direction.display_name}})</h3>
+		  	<p ng-class="{true:'predict', false:''}[$index==0]" ng-repeat="prediction in favorite.predictions">{{prediction.minutes}} minutes</p>
+			</ion-content>
+			<div class="bar bar-subfooter bar-stable">
+        <h2 class="title"></h2>
+      </div>
 	  </ion-slide>
 	</ion-slide-box>  
-  </ion-content>
 </ion-view>

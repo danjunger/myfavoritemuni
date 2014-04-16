@@ -21,7 +21,6 @@ C:\Users\junge_000\Documents\GitHub\myfavoritemuni-ionic\platforms\android\asset
 C:\Users\junge_000\Documents\GitHub\myfavoritemuni-ionic\platforms\android\assets\www\index.html \
 C:\Users\junge_000\Documents\GitHub\myfavoritemuni-ionic\platforms\android\assets\www\js \
 C:\Users\junge_000\Documents\GitHub\myfavoritemuni-ionic\platforms\android\assets\www\lib \
-C:\Users\junge_000\Documents\GitHub\myfavoritemuni-ionic\platforms\android\assets\www\plugins \
 C:\Users\junge_000\Documents\GitHub\myfavoritemuni-ionic\platforms\android\assets\www\README.md \
 C:\Users\junge_000\Documents\GitHub\myfavoritemuni-ionic\platforms\android\assets\www\templates \
 C:\Users\junge_000\Documents\GitHub\myfavoritemuni-ionic\platforms\android\assets\www\css\style.css \
@@ -102,12 +101,6 @@ C:\Users\junge_000\Documents\GitHub\myfavoritemuni-ionic\platforms\android\asset
 C:\Users\junge_000\Documents\GitHub\myfavoritemuni-ionic\platforms\android\assets\www\lib\ionic\scss\ionicons\_ionicons-font.scss \
 C:\Users\junge_000\Documents\GitHub\myfavoritemuni-ionic\platforms\android\assets\www\lib\ionic\scss\ionicons\_ionicons-icons.scss \
 C:\Users\junge_000\Documents\GitHub\myfavoritemuni-ionic\platforms\android\assets\www\lib\ionic\scss\ionicons\_ionicons-variables.scss \
-C:\Users\junge_000\Documents\GitHub\myfavoritemuni-ionic\platforms\android\assets\www\plugins\org.apache.cordova.device \
-C:\Users\junge_000\Documents\GitHub\myfavoritemuni-ionic\platforms\android\assets\www\plugins\org.apache.cordova.statusbar \
-C:\Users\junge_000\Documents\GitHub\myfavoritemuni-ionic\platforms\android\assets\www\plugins\org.apache.cordova.device\www \
-C:\Users\junge_000\Documents\GitHub\myfavoritemuni-ionic\platforms\android\assets\www\plugins\org.apache.cordova.device\www\device.js \
-C:\Users\junge_000\Documents\GitHub\myfavoritemuni-ionic\platforms\android\assets\www\plugins\org.apache.cordova.statusbar\www \
-C:\Users\junge_000\Documents\GitHub\myfavoritemuni-ionic\platforms\android\assets\www\plugins\org.apache.cordova.statusbar\www\statusbar.js \
 C:\Users\junge_000\Documents\GitHub\myfavoritemuni-ionic\platforms\android\assets\www\templates\addfav.html \
 C:\Users\junge_000\Documents\GitHub\myfavoritemuni-ionic\platforms\android\assets\www\templates\edit.html \
 C:\Users\junge_000\Documents\GitHub\myfavoritemuni-ionic\platforms\android\assets\www\templates\home.html \

@@ -1,15 +1,11 @@
-<br/>
-<br/>
-<br/>
-<ul>
-  <!-- list of favorites -->
-  <li ng-repeat="favorite in favorites track by $index">
-    <ul>
-      <!-- list of predictions for each favorite -->
-      <div>
-        <span>{{favorite.agency.display_name}} - {{favorite.route.display_name}} @ {{favorite.stop.display_name}} ({{favorite.direction.display_name}})<button ng-click="remove(favorite)">Remove</button></span>
-      </div>  
-    </ul>
-  </li>
-</ul>
-<!--<button><a href="#/tab/add">Add</a></button>-->
+<ion-view title="My Favorite Muni">
+<ion-content>
+	<ion-list show-delete="true" show-reorder="true">
+	  <!-- list of favorites -->
+	  <ion-item item="favorite" ng-repeat="favorite in favorites track by $index">
+	      {{favorite.agency.display_name}} - {{favorite.route.display_name}}<br/>{{favorite.stop.display_name}}<br/>({{favorite.direction.display_name}})
+	      <ion-delete-button class="ion-close-circled" ng-click="remove(favorite)"></ion-delete-button>
+	      <ion-reorder-button class="ion-navicon" on-reorder="moveItem(favorite, fromIndex, toIndex)"></ion-reorder-button> 
+	  </ion-item>
+	</ion-list>
+<ion-content>

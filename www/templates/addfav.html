@@ -1,18 +1,30 @@
-<br/>
-<br/>
-<br/>
-<form name="form" novalidate >
-  <select ng-model="user.agency" ng-options="s as s.display_name for s in agencies"  required>
-  	<option selected disabled value="">Select an Agency</option>
-  </select>
-  <select ng-model="user.route" ng-options="s as s.display_name for s in routes" required>
-  	<option selected disabled value="">Select a Route</option>
-  </select>
-  <select ng-model="user.direction" ng-options="s as s.display_name for s in directions" required>
-  	<option selected disabled value="">Select a Direction</option>
-  </select>
-  <select ng-model="user.stop" ng-options="s as s.display_name for s in stops" required>
-  	<option selected disabled value="">Select a Stop</option>
-  </select>
-  <button ng-disabled="form.$invalid" ng-click="saveFavorite()">Save as favorite</button>
-</form>
+<ion-view title="My Favorite Muni">
+<ion-content scroll="false">
+  <form class="content padding" name="form" novalidate class="list">
+    <div class="item item-input item-select">
+      <div class="input-label">Agency</div>
+      <select class="item item-input item-select" ng-model="user.agency" ng-options="s as s.display_name for s in agencies"  required>
+      	<option selected disabled value="">Select an Agency</option>
+      </select>
+    </div>
+    <div class="item item-input item-select">
+      <div class="input-label">Route</div>
+      <select class="item item-input item-select" ng-model="user.route" ng-options="s as s.display_name for s in routes" required>
+      	<option selected disabled value="">Select a Route</option>
+      </select>      
+    </div>
+    <div class="item item-input item-select">
+      <div class="input-label">Direction</div>
+      <select class="item item-input item-select" ng-model="user.direction" ng-options="s as s.display_name for s in directions" required>
+      	<option selected disabled value="">Select a Direction</option>
+      </select>
+    </div>
+    <div class="item item-input item-select">
+      <div class="input-label">Stop</div>
+      <select class="item item-input item-select" ng-model="user.stop" ng-options="s as s.display_name for s in stops" required>
+      	<option selected disabled value="">Select a Stop</option>
+      </select>
+    </div>
+    <button class="button button-block button-positive" ng-disabled="form.$invalid" ng-click="saveFavorite()">Save as favorite</button>
+  </form>
+</ion-content>
