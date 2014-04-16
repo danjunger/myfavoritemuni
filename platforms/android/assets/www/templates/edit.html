@@ -1,0 +1,15 @@
+<br/>
+<br/>
+<br/>
+<ul>
+  <!-- list of favorites -->
+  <li ng-repeat="favorite in favorites track by $index">
+    <ul>
+      <!-- list of predictions for each favorite -->
+      <div>
+        <span>{{favorite.agency.display_name}} - {{favorite.route.display_name}} @ {{favorite.stop.display_name}} ({{favorite.direction.display_name}})<button ng-click="remove(favorite)">Remove</button></span>
+      </div>  
+    </ul>
+  </li>
+</ul>
+<!--<button><a href="#/tab/add">Add</a></button>-->
