@@ -75,4 +75,9 @@ angular.module('mfm.controllers.addfav', [])
 		// redirect back to edit
 		$location.path('/edit');
 	};
-  }]);
+
+	$scope.edit = function() {
+		// redirect back to edit
+		$location.path('/edit');
+	}
+}]);

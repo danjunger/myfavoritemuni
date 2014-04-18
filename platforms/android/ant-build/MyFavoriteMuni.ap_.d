@@ -27,11 +27,13 @@ C:\Users\junge_000\Documents\GitHub\myfavoritemuni-ionic\platforms\android\asset
 C:\Users\junge_000\Documents\GitHub\myfavoritemuni-ionic\platforms\android\assets\www\img\ionic.png \
 C:\Users\junge_000\Documents\GitHub\myfavoritemuni-ionic\platforms\android\assets\www\js\app.js \
 C:\Users\junge_000\Documents\GitHub\myfavoritemuni-ionic\platforms\android\assets\www\js\controllers \
+C:\Users\junge_000\Documents\GitHub\myfavoritemuni-ionic\platforms\android\assets\www\js\directives \
 C:\Users\junge_000\Documents\GitHub\myfavoritemuni-ionic\platforms\android\assets\www\js\lib \
 C:\Users\junge_000\Documents\GitHub\myfavoritemuni-ionic\platforms\android\assets\www\js\services \
 C:\Users\junge_000\Documents\GitHub\myfavoritemuni-ionic\platforms\android\assets\www\js\controllers\addfav.js \
 C:\Users\junge_000\Documents\GitHub\myfavoritemuni-ionic\platforms\android\assets\www\js\controllers\edit.js \
 C:\Users\junge_000\Documents\GitHub\myfavoritemuni-ionic\platforms\android\assets\www\js\controllers\home.js \
+C:\Users\junge_000\Documents\GitHub\myfavoritemuni-ionic\platforms\android\assets\www\js\directives\predictions.js \
 C:\Users\junge_000\Documents\GitHub\myfavoritemuni-ionic\platforms\android\assets\www\js\lib\underscore \
 C:\Users\junge_000\Documents\GitHub\myfavoritemuni-ionic\platforms\android\assets\www\js\lib\underscore\underscore-min.js \
 C:\Users\junge_000\Documents\GitHub\myfavoritemuni-ionic\platforms\android\assets\www\js\services\cacheservice.js \
@@ -104,5 +106,4 @@ C:\Users\junge_000\Documents\GitHub\myfavoritemuni-ionic\platforms\android\asset
 C:\Users\junge_000\Documents\GitHub\myfavoritemuni-ionic\platforms\android\assets\www\templates\addfav.html \
 C:\Users\junge_000\Documents\GitHub\myfavoritemuni-ionic\platforms\android\assets\www\templates\edit.html \
 C:\Users\junge_000\Documents\GitHub\myfavoritemuni-ionic\platforms\android\assets\www\templates\home.html \
-C:\Users\junge_000\Documents\GitHub\myfavoritemuni-ionic\platforms\android\assets\www\templates\tabs.html \
 C:\Users\junge_000\Documents\GitHub\myfavoritemuni-ionic\platforms\android\ant-build\AndroidManifest.xml \

@@ -1,15 +1,18 @@
-<ion-view title="My Favorite Muni">
+
   <ion-slide-box on-slide-changed="slideChanged(index)">
-	  <!-- list of favorites -->
-	  <ion-slide ng-repeat="favorite in favorites track by $index">
-	    <!-- list of predictions for each favorite -->
-	    <ion-content>
-	      <h3>{{favorite.agency.display_name}}<br/>{{favorite.route.display_name}} @<br/>{{favorite.stop.display_name}}<br/>({{favorite.direction.display_name}})</h3>
-		  	<p ng-class="{true:'predict', false:''}[$index==0]" ng-repeat="prediction in favorite.predictions">{{prediction.minutes}} minutes</p>
-			</ion-content>
-			<div class="bar bar-subfooter bar-stable">
-        <h2 class="title"></h2>
-      </div>
-	  </ion-slide>
-	</ion-slide-box>  
-</ion-view>
+    <!-- list of favorites -->
+    <ion-slide ng-repeat="favorite in favorites track by $index">     
+      <ion-content>
+          <!-- list of predictions for each favorite -->
+          <div class="row" ng-class="{true:'predictmain', false:'predictsub'}[$index==0]" ng-repeat="prediction in favorite.predictions">{{prediction.minutes}}<span>{{$index==0 ? ' min' : ''}}</span></div>
+          <!--<div class="row">{{favorite.agency.display_name}}</div>-->
+          <div class="row label toplabel">{{favorite.route.display_name}}</div>
+          <div class="row label">{{favorite.stop.display_name}}</div>
+          <div class="row label">{{favorite.direction.display_name}}</div>
+      </ion-content>
+    </ion-slide>
+  </ion-slide-box>
+
+<div class="bar bar-footer">
+  <a class="button button-clear pull-right icon ion-android-more" href="#/edit"></a>
+</div>

@@ -1,6 +1,13 @@
-<ion-view title="My Favorite Muni">
+<ion-header-bar class="bar-positive">
+  <div class="buttons">
+    <button class="button" ng-click="home()">Back</button>
+    <button class="button button-icon icon ion-ios7-minus-outline" ng-click="data.showDelete = !data.showDelete; data.showReorder = false"></button>
+  	<h1 class="title">Edit Favorites</h1>
+  	<button class="button" ng-click="data.showDelete = false; data.showReorder = !data.showReorder">Reorder</button>
+  </div>
+</ion-header-bar>
 <ion-content>
-	<ion-list show-delete="true" show-reorder="true">
+	<ion-list show-delete="data.showDelete" show-reorder="data.showReorder">
 	  <!-- list of favorites -->
 	  <ion-item item="favorite" ng-repeat="favorite in favorites track by $index">
 	      {{favorite.agency.display_name}} - {{favorite.route.display_name}}<br/>{{favorite.stop.display_name}}<br/>({{favorite.direction.display_name}})
@@ -8,4 +15,9 @@
 	      <ion-reorder-button class="ion-navicon" on-reorder="moveItem(favorite, fromIndex, toIndex)"></ion-reorder-button> 
 	  </ion-item>
 	</ion-list>
-<ion-content>
+</ion-content>
+<ion-footer-bar class="bar-positive">
+  <div class="buttons">
+    <button class="button" ng-click="add()">Add</button>
+  </div>
+</ion-footer-bar>
