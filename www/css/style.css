@@ -4,7 +4,7 @@ select {
   width: 75%;
 }
 body {
-  background-image: url(../img/munistop.png);
+  background: url(../img/munistop.png);
   background-size: 100%;
   background-repeat: no-repeat;
   color: white;

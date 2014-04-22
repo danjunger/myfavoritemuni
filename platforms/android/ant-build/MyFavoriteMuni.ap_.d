@@ -46,6 +46,7 @@ C:\Users\junge_000\Documents\GitHub\myfavoritemuni-ionic\platforms\android\asset
 C:\Users\junge_000\Documents\GitHub\myfavoritemuni-ionic\platforms\android\assets\www\lib\ionic\js \
 C:\Users\junge_000\Documents\GitHub\myfavoritemuni-ionic\platforms\android\assets\www\lib\ionic\scss \
 C:\Users\junge_000\Documents\GitHub\myfavoritemuni-ionic\platforms\android\assets\www\lib\ionic\css\ionic.css \
+C:\Users\junge_000\Documents\GitHub\myfavoritemuni-ionic\platforms\android\assets\www\lib\ionic\css\ionic.min-v1.css \
 C:\Users\junge_000\Documents\GitHub\myfavoritemuni-ionic\platforms\android\assets\www\lib\ionic\css\ionic.min.css \
 C:\Users\junge_000\Documents\GitHub\myfavoritemuni-ionic\platforms\android\assets\www\lib\ionic\fonts\ionicons.eot \
 C:\Users\junge_000\Documents\GitHub\myfavoritemuni-ionic\platforms\android\assets\www\lib\ionic\fonts\ionicons.svg \
@@ -56,6 +57,7 @@ C:\Users\junge_000\Documents\GitHub\myfavoritemuni-ionic\platforms\android\asset
 C:\Users\junge_000\Documents\GitHub\myfavoritemuni-ionic\platforms\android\assets\www\lib\ionic\js\ionic-angular.js \
 C:\Users\junge_000\Documents\GitHub\myfavoritemuni-ionic\platforms\android\assets\www\lib\ionic\js\ionic-angular.min.js \
 C:\Users\junge_000\Documents\GitHub\myfavoritemuni-ionic\platforms\android\assets\www\lib\ionic\js\ionic.bundle.js \
+C:\Users\junge_000\Documents\GitHub\myfavoritemuni-ionic\platforms\android\assets\www\lib\ionic\js\ionic.bundle.min-v1.js \
 C:\Users\junge_000\Documents\GitHub\myfavoritemuni-ionic\platforms\android\assets\www\lib\ionic\js\ionic.bundle.min.js \
 C:\Users\junge_000\Documents\GitHub\myfavoritemuni-ionic\platforms\android\assets\www\lib\ionic\js\ionic.js \
 C:\Users\junge_000\Documents\GitHub\myfavoritemuni-ionic\platforms\android\assets\www\lib\ionic\js\ionic.min.js \
