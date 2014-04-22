@@ -25,6 +25,7 @@ C:\Users\junge_000\Documents\GitHub\myfavoritemuni-ionic\platforms\android\asset
 C:\Users\junge_000\Documents\GitHub\myfavoritemuni-ionic\platforms\android\assets\www\templates \
 C:\Users\junge_000\Documents\GitHub\myfavoritemuni-ionic\platforms\android\assets\www\css\style.css \
 C:\Users\junge_000\Documents\GitHub\myfavoritemuni-ionic\platforms\android\assets\www\img\ionic.png \
+C:\Users\junge_000\Documents\GitHub\myfavoritemuni-ionic\platforms\android\assets\www\img\munistop.png \
 C:\Users\junge_000\Documents\GitHub\myfavoritemuni-ionic\platforms\android\assets\www\js\app.js \
 C:\Users\junge_000\Documents\GitHub\myfavoritemuni-ionic\platforms\android\assets\www\js\controllers \
 C:\Users\junge_000\Documents\GitHub\myfavoritemuni-ionic\platforms\android\assets\www\js\directives \

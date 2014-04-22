@@ -2,8 +2,11 @@
   <div class="buttons">
     <a class="button button-icon icon ion-ios7-arrow-back" href="#/home"></a>
     <button class="button button-icon icon ion-close-circled" ng-click="data.showDelete = !data.showDelete; data.showReorder = false"></button>
-  	<h1 class="title">Edit Favorites</h1>
-  	<button class="button" ng-click="data.showDelete = false; data.showReorder = !data.showReorder">Reorder</button>
+  </div>  
+  <h1 class="title">Edit Favorites</h1>
+  <div class="buttons">
+    <a class="button button-clear icon ion-plus-round" href="#/add"></a>
+  	<button class="button button-clear icon ion-arrow-move" ng-click="data.showDelete = false; data.showReorder = !data.showReorder"></button>
   </div>
 </ion-header-bar>
 <ion-content>
@@ -16,6 +19,3 @@
 	  </ion-item>
 	</ion-list>
 </ion-content>
-<a class="button button-clear pull-right icon ion-plus-round bottom-right" href="#/add"></a>
-  
-
