@@ -3,6 +3,9 @@ select {
   display: block;
   width: 75%;
 }
+.selectdisable {
+  color: #A8A7A8 !important;
+}
 body {
   background: url(../img/munistop.png);
   background-size: 100%;
@@ -32,6 +35,10 @@ p {
   border-bottom-style: solid;
   display: block;
   text-align: center;
+}
+.predictmainloading {
+  font-size: 5em;
+  padding: 2em 0.2em 1em 0.2em;
 }
 .predictmain span{
   font-size: small;

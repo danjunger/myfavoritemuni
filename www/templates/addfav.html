@@ -8,26 +8,26 @@
   <form class="content padding" name="form" novalidate class="list">
     <div class="item item-input item-select">
       <div class="input-label">Agency</div>
-      <select class="item item-input item-select" ng-model="user.agency" ng-options="s as s.display_name for s in agencies"  required>
+      <select class="item item-input item-select" ng-model="user.agency" ng-class="{true:'selectdisable', false:''}[agencies==undefined]" ng-options="s as s.display_name for s in agencies" ng-disabled="!(agencies)" required>
       	<option selected disabled value="">Select an Agency</option>
       </select>
     </div>
     <div class="item item-input item-select">
       <div class="input-label">Route</div>
-      <select class="item item-input item-select" ng-model="user.route" ng-options="s as s.display_name for s in routes" required>
+      <select class="item item-input item-select" ng-model="user.route" ng-class="{true:'selectdisable', false:''}[routes==undefined]" ng-options="s as s.display_name for s in routes" ng-disabled="!(routes)" required>
       	<option selected disabled value="">Select a Route</option>
       </select>      
     </div>
     <div class="item item-input item-select">
       <div class="input-label">Direction</div>
-      <select class="item item-input item-select" ng-model="user.direction" ng-options="s as s.display_name for s in directions" required>
+      <select class="item item-input item-select" ng-model="user.direction" ng-class="{true:'selectdisable', false:''}[directions==undefined]" ng-options="s as s.display_name for s in directions" ng-disabled="!(directions)" required>
       	<option selected disabled value="">Select a Direction</option>
       </select>
     </div>
     <div class="item item-input item-select">
       <div class="input-label">Stop</div>
-      <select class="item item-input item-select" ng-model="user.stop" ng-options="s as s.display_name for s in stops" required>
-      	<option selected disabled value="">Select a Stop</option>
+      <select class="item item-input item-select" ng-model="user.stop" ng-class="{true:'selectdisable', false:''}[stops==undefined]" ng-options="s as s.display_name for s in stops" ng-disabled="!(stops)" required>
+      	<option  selected disabled value="">Select a Stop</option>
       </select>
     </div>
     <button class="button button-block button-positive" ng-disabled="form.$invalid" ng-click="saveFavorite()">Save as favorite</button>

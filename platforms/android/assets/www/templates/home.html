@@ -2,6 +2,9 @@
   <!-- list of favorites -->
   <ion-slide ng-repeat="favorite in favorites track by $index">     
     <ion-content>
+        <!-- placeholders to show so that the structure of the page doesnt change when data comes in -->
+        <div class="row predictmain predictmainloading" ng-if="!(favorite.predictions)">Loading</div>
+        <div class="row predictsub" ng-if="!(favorite.predictions)">   </div>
         <!-- list of predictions for each favorite -->
         <div class="row" ng-class="{true:'predictmain', false:'predictsub'}[$index==0]" ng-repeat="prediction in favorite.predictions | limitTo: 5">{{prediction.minutes}}<span>{{$index==0 ? ' min' : ''}}</span></div>
         <!--<div class="row">{{favorite.agency.display_name}}</div>-->

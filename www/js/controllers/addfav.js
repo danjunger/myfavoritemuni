@@ -24,6 +24,9 @@ angular.module('mfm.controllers.addfav', [])
 		$scope.user.stop = '';
 		$scope.user.direction = '';
 		$scope.predictions = [];
+		$scope.routes = undefined;
+		$scope.directions = undefined;
+		$scope.stops = undefined;
 		
 		if (newVal !== null && newVal !== '') {
 			NextMuni.getRoutes(newVal.id).then(function(data) {
@@ -38,6 +41,8 @@ angular.module('mfm.controllers.addfav', [])
 		$scope.user.stop = '';
 		$scope.user.direction = '';
 		$scope.predictions = [];
+		$scope.directions = undefined;
+		$scope.stops = undefined;
 
 		if (newVal !== null && newVal !== '') {
 			NextMuni.getRuns($scope.user.agency.id, $scope.user.route.id).then(function(data) {
@@ -51,6 +56,7 @@ angular.module('mfm.controllers.addfav', [])
 	$scope.$watch('user.direction', function(newVal) {
 		$scope.user.stop = '';
 		$scope.predictions = [];
+		$scope.stops = undefined;
 
 		if (newVal !== null && newVal !== '') {
 			NextMuni.getStops($scope.user.agency.id, $scope.user.route.id, newVal.id).then(function(data) {
