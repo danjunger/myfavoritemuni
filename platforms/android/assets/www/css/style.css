@@ -7,11 +7,11 @@ select {
   color: #A8A7A8 !important;
 }
 body {
-  background: url(../img/munistop.png);
+  background: url(../img/mystop_bg.png);
   background-size: 100%;
   background-repeat: no-repeat;
   color: white;
-  font-family: Roboto, Arial, sans-serif !important;
+  font-family: Open-sans !important;
 }
 .slider{
   position: absolute !important;
@@ -31,8 +31,6 @@ p {
 .predictmain {
 	font-size: 10em;
 	padding: 1em 0.2em 0.4em 0.2em;
-  border-bottom: 1px;
-  border-bottom-style: solid;
   display: block;
   text-align: center;
 }
@@ -60,8 +58,6 @@ p {
   min-height: 1em;
 }
 .toplabel {
-  border-top: 1px;
-  border-top-style: solid;
   padding-top: 2em !important;
 }
 .label {
@@ -75,4 +71,10 @@ p {
 }
 div span i {
   color: white;
+}
+.bold {
+  font-weight:bold;
+}
+.button-color {
+  color: white !important;
 }
