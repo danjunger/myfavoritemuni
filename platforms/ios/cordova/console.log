@@ -1,0 +1,8 @@
+2014-05-07 14:17:50.270 MyFavoriteMuni[1569:70b] Multi-tasking -> Device: YES, App: YES
+2014-05-07 14:17:50.294 MyFavoriteMuni[1569:70b] Unlimited access to network resources
+2014-05-07 14:17:50.428 MyFavoriteMuni[1569:70b] CDVPlugin class CDVStatusBar (pluginName: statusbar) does not exist.
+2014-05-07 14:17:50.428 MyFavoriteMuni[1569:70b] [CDVTimer][statusbar] 0.415027ms
+2014-05-07 14:17:50.428 MyFavoriteMuni[1569:70b] [CDVTimer][TotalPluginStartup] 0.791013ms
+2014-05-07 14:17:50.583 MyFavoriteMuni[1569:70b] Resetting plugins due to page load.
+2014-05-07 14:17:50.836 MyFavoriteMuni[1569:70b] Finished load of: file:///Users/dan/Library/Application%20Support/iPhone%20Simulator/7.1/Applications/385D5100-88FD-4B3B-97E4-3CC56F506DCC/MyFavoriteMuni.app/www/index.html#/home
+Terminating in response to SpringBoard's termination.

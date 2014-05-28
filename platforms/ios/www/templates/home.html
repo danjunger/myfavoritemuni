@@ -1,0 +1,23 @@
+<ion-slide-box on-slide-changed="slideChanged(index)">
+  <!-- list of favorites -->
+  <ion-slide ng-repeat="favorite in favorites track by $index">     
+    <ion-content>
+        <!-- placeholders to show so that the structure of the page doesnt change when data comes in -->
+        <div class="row predictmain predictmainloading" ng-if="!(favorite.predictions)">Loading</div>
+        <div class="row predictsub predictsubempty" ng-if="!(favorite.predictions)"></div>
+
+        <!-- placeholders to show so that the structure remains the same if no predictions are found -->
+        <div class="row predictmain predictmainnone" ng-if="favorite.predictions.length === 0">No Predictions Found</div>
+        <div class="row predictsub predictsubempty" ng-if="favorite.predictions.length === 0"></div>        
+
+        <!-- list of predictions for each favorite -->
+        <div class="row" ng-class="{true:'predictmain', false:'predictsub'}[$index==0]" ng-repeat="prediction in favorite.predictions | limitTo: 5">{{prediction.minutes}}<span>{{$index==0 ? ' min' : ''}}</span></div>
+        
+        <!--<div class="row">{{favorite.agency.display_name}}</div>-->
+        <div class="row label toplabel">{{favorite.route.display_name}}</div>
+        <div class="row label">{{favorite.stop.display_name}}</div>
+        <div class="row label bold">{{favorite.direction.display_name}}</div>
+    </ion-content>
+  </ion-slide>
+</ion-slide-box>
+<a class="button button-clear icon ion-navicon-round button-color bottom-right" href="#/edit"></a>

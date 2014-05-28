@@ -1,4 +1,14 @@
+
 <ion-slide-box on-slide-changed="slideChanged(index)">
+  <!-- welcome message for new users -->
+  <div class="card" ng-if="favorites.length == 0">
+    <div class="item item-text-wrap greet-home">
+        <p class="greet">Welcome to MyFavoriteMuni</p>
+        <p class="greet">Add favorites to show predictions here on your home screen.</p>
+        <a class="button button-positive icon ion-star" href="#/add">Click to get started</a>
+    </div>
+  </div>
+
   <!-- list of favorites -->
   <ion-slide ng-repeat="favorite in favorites track by $index">     
     <ion-content>

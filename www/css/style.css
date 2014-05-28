@@ -1,7 +1,7 @@
 /* Empty. Add your own CSS if you like */
 select {
   display: block;
-  width: 75%;
+  width: 65%;
 }
 .selectdisable {
   color: #A8A7A8 !important;
@@ -77,4 +77,28 @@ div span i {
 }
 .button-color {
   color: white !important;
+}
+
+.card {
+  opacity:0.6;
+}
+
+.greet-home {
+  text-align: center;
+}
+
+.greet-home p {
+  font-weight: bold;
+  font-family: Open-sans !important;
+  font-size: 1.4em;
+  line-height: 1.2;
+}
+
+.item-toggle div span {
+  padding: 7px 10px 7px 0px;
+  max-width: 200px;
+  width: 35%;
+  color: #444;
+  font-weight: 700;
+  font-size: 14px;
 }
