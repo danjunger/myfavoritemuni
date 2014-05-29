@@ -35,5 +35,7 @@
     </div>
     <button class="button button-block button-positive" ng-disabled="form.$invalid" ng-click="saveFavorite()">Save as favorite</button>
   </form>
-  <div class="row" ng-class="{true:'predictmain', false:'predictsub'}[$index==0]" ng-repeat="prediction in predictions | limitTo: 5">{{prediction.minutes}}<span>{{$index==0 ? ' min' : ''}}</span></div>
+  <div style="text-align:center;">
+    <div class="row" ng-class="{true:'predictmainsmaller', false:'predictsub'}[$index==0]" ng-repeat="prediction in predictions | limitTo: 5">{{prediction.minutes}}<span>{{$index==0 ? ' min' : ''}}</span></div>
+  </div>
 </ion-content>

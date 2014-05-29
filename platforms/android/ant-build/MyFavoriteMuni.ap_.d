@@ -109,4 +109,5 @@
 /Users/dan/Dropbox/GitHub/myfavoritemuni-ionic/platforms/android/assets/www/templates/addfav.html \
 /Users/dan/Dropbox/GitHub/myfavoritemuni-ionic/platforms/android/assets/www/templates/edit.html \
 /Users/dan/Dropbox/GitHub/myfavoritemuni-ionic/platforms/android/assets/www/templates/home.html \
+/Users/dan/Dropbox/GitHub/myfavoritemuni-ionic/platforms/android/assets/www/templates/predictionset.html \
 /Users/dan/Dropbox/GitHub/myfavoritemuni-ionic/platforms/android/ant-build/AndroidManifest.xml \
