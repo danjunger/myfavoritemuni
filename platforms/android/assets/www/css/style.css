@@ -57,6 +57,12 @@ p {
 .predictsubempty {
   min-height: 1em;
 }
+.predictmainsmaller {
+  font-size: 7em;
+  padding: 0.3em 0.2em 0.2em 0.2em;
+  display: block;
+  text-align: center;
+}
 .toplabel {
   padding-top: 2em !important;
 }
