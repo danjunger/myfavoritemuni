@@ -102,6 +102,6 @@ angular.module('mfm.controllers.addfav', [])
 		WebCache.setData('favorites', $scope.user.favorites);
 
 		// redirect back to edit
-		$location.path('/home');
+		$location.path('/home/' + ($scope.user.favorites.length - 1));
 	};
 }]);

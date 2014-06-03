@@ -1,7 +1,7 @@
 'use strict';
 
 angular.module('mfm.controllers.edit', [])
-  .controller('EditCtrl', ['$scope', 'WebCache',
+.controller('EditCtrl', ['$scope', 'WebCache',
   function($scope, WebCache) {
 	
 	$scope.favorites = WebCache.getData('favorites') || [];

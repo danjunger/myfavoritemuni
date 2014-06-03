@@ -108,3 +108,31 @@ div span i {
   font-weight: 700;
   font-size: 14px;
 }
+
+.resizecard {
+  width: 90% !important;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+@media only screen and (min-device-height : 480px) {
+  .predictmain {
+    font-size: 8em;
+  }
+  .predictmainloading {
+    font-size: 4em;
+  }
+  .predictmainnone {
+    font-size: 2.5em;
+    padding: 2em 0.2em 1.8em 0.2em;
+  }
+  .predictmainsmaller {
+    font-size: 5em;
+  }
+  .toplabel {
+    padding-top: 1.5em !important;
+  }
+  .label {
+    font-size: 1.2em;
+  }
+}

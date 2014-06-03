@@ -29,6 +29,11 @@ angular.module('MFM', ['ionic',
       templateUrl: "templates/home.html",
       controller: 'HomeCtrl'
     })
+    .state('home-index', {
+      url: "/home/:index",
+      templateUrl: "templates/home.html",
+      controller: 'HomeCtrl'
+    })
     .state('add', {
       url: "/add",
       templateUrl: "templates/addfav.html",
@@ -38,7 +43,7 @@ angular.module('MFM', ['ionic',
       url: "/edit",
       templateUrl: "templates/edit.html",
       controller: 'EditCtrl'
-    })
+    });
     
     // if none of the above are matched, go to this one
     $urlRouterProvider.otherwise("/home");

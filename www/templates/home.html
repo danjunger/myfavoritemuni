@@ -1,7 +1,7 @@
 
-<ion-slide-box on-slide-changed="slideChanged(index)">
+<ion-slide-box on-slide-changed="slideChanged($index)" active-slide="slideIndex">
   <!-- welcome message for new users -->
-  <div class="card" ng-if="favorites.length == 0">
+  <div class="card resizecard" ng-if="favorites.length == 0">
     <div class="item item-text-wrap greet-home">
         <p class="greet">Welcome to MyFavoriteMuni</p>
         <p class="greet">Add favorites to show predictions here on your home screen.</p>

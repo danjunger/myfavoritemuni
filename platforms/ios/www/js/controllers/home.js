@@ -1,10 +1,14 @@
 'use strict';
 
 angular.module('mfm.controllers.home', [])
-.controller('HomeCtrl', ['$scope', '$ionicSlideBoxDelegate', 'NextMuni', 'WebCache',
-	function($scope, $ionicSlideBoxDelegate, NextMuni, WebCache) {
+.controller('HomeCtrl', ['$scope', '$stateParams','$ionicSlideBoxDelegate', 'NextMuni', 'WebCache',
+	function($scope, $stateParams, $ionicSlideBoxDelegate, NextMuni, WebCache) {
 
 	$scope.favorites = WebCache.getData('favorites') || [];
+
+	if ($stateParams.index) {
+		$scope.slideIndex = $stateParams.index;
+	}
 
 	var refreshMuniData = function() {
 		$scope.favorites.forEach(function(item) {
