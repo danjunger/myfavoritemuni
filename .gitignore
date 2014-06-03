@@ -6,3 +6,4 @@ hooks/
 release-key.keystore
 build_release.sh
 update_manifest.sh
+MyFavoriteMuni.apk
