@@ -13,9 +13,9 @@
 	<ion-list show-delete="data.showDelete" show-reorder="data.showReorder">
 	  <!-- list of favorites -->
 	  <ion-item item="favorite" ng-repeat="favorite in favorites track by $index">
-        <a href="#/home/{{$index}}" style="text-decoration: inherit; color: black;">
+        <div ng-click="navigateTo($index)">
 	       {{favorite.agency.display_name}} - {{favorite.route.display_name}}<br/>{{favorite.stop.display_name}}<br/>({{favorite.direction.display_name}})
-        </a>
+        </div>
 	      <ion-delete-button class="ion-close-circled" ng-click="remove(favorite)"></ion-delete-button>
 	      <ion-reorder-button class="ion-navicon" on-reorder="moveItem(favorite, $fromIndex, $toIndex)"></ion-reorder-button> 
 	  </ion-item>

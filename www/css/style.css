@@ -127,7 +127,8 @@ div span i {
     padding: 2em 0.2em 1.8em 0.2em;
   }
   .predictmainsmaller {
-    font-size: 5em;
+    font-size: 4.5em;
+    padding: 0.2em 0.2em 0.2em 0.2em;
   }
   .toplabel {
     padding-top: 1.5em !important;

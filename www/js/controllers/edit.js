@@ -1,8 +1,8 @@
 'use strict';
 
 angular.module('mfm.controllers.edit', [])
-.controller('EditCtrl', ['$scope', 'WebCache',
-  function($scope, WebCache) {
+.controller('EditCtrl', ['$scope', '$location', 'WebCache',
+  function($scope, $location, WebCache) {
 	
 	$scope.favorites = WebCache.getData('favorites') || [];
 
@@ -20,4 +20,8 @@ angular.module('mfm.controllers.edit', [])
     $scope.favorites.splice(toIndex, 0, item);
     WebCache.setData('favorites', $scope.favorites);
   };
+
+  $scope.navigateTo = function(index) {
+    $location.path('/home/' + index);
+  }
 }]);
