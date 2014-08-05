@@ -7,6 +7,14 @@ angular.module('mfm.services.nextmuni', [])
       return {
         getAgencies: function() {
           return $http({method: 'GET', url: baseUrl + 'agencies.json'}).then(function(result) {
+            // remove BART from the agency list since it's not native to NextBus API and it's broken with no docs
+            result.data.items = result.data.items.filter(function(item) {
+              if (item.id === 'bart') {
+                return false;
+              }
+              return true;
+            });
+
             return result.data;
           });
         },
